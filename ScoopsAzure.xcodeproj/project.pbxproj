@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070A4DCD1AF00272008EE4D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DCC1AF00272008EE4D5 /* main.m */; };
+		070A4DD01AF00272008EE4D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DCF1AF00272008EE4D5 /* AppDelegate.m */; };
+		070A4DD31AF00272008EE4D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DD21AF00272008EE4D5 /* ViewController.m */; };
+		070A4DD81AF00272008EE4D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A4DD71AF00272008EE4D5 /* Images.xcassets */; };
+		070A4DDB1AF00272008EE4D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070A4DD91AF00272008EE4D5 /* LaunchScreen.xib */; };
+		070A4DE71AF00272008EE4D5 /* ScoopsAzureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DE61AF00272008EE4D5 /* ScoopsAzureTests.m */; };
+		070A4DF11AF0029B008EE4D5 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070A4DF01AF0029B008EE4D5 /* WindowsAzureMobileServices.framework */; };
+		070A4DFB1AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DFA1AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.m */; };
+		070A4DFE1AF01F2E008EE4D5 /* Scoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4DFD1AF01F2E008EE4D5 /* Scoop.m */; };
+		070A4E021AF01FDE008EE4D5 /* AGTScoopsAzure.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4E011AF01FDE008EE4D5 /* AGTScoopsAzure.m */; };
+		070A4E061AF0223E008EE4D5 /* AGTNewScoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A4E041AF0223E008EE4D5 /* AGTNewScoopViewController.m */; };
+		070A4E071AF0223E008EE4D5 /* AGTNewScoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 070A4E051AF0223E008EE4D5 /* AGTNewScoopViewController.xib */; };
+		071E4A221AF6A99200CA7220 /* no_like.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 071E4A201AF6A99200CA7220 /* no_like.jpg */; };
+		071E4A231AF6A99200CA7220 /* like.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 071E4A211AF6A99200CA7220 /* like.jpeg */; };
+		07359FCF1AF50D81002DE922 /* no_enviada.png in Resources */ = {isa = PBXBuildFile; fileRef = 07359FCD1AF50D81002DE922 /* no_enviada.png */; };
+		07359FD01AF50D81002DE922 /* aprobada.png in Resources */ = {isa = PBXBuildFile; fileRef = 07359FCE1AF50D81002DE922 /* aprobada.png */; };
+		07359FD31AF557EA002DE922 /* AGTReaderScoopsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07359FD21AF557EA002DE922 /* AGTReaderScoopsTableViewController.m */; };
+		07359FD91AF55FC9002DE922 /* AGTScoopReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07359FD71AF55FC9002DE922 /* AGTScoopReaderViewController.m */; };
+		07359FDA1AF55FC9002DE922 /* AGTScoopReaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07359FD81AF55FC9002DE922 /* AGTScoopReaderViewController.xib */; };
+		0766E9F61AF63FD400ECEC3E /* no_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0766E9F51AF63FD400ECEC3E /* no_image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070A4DE11AF00272008EE4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070A4DBF1AF00272008EE4D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 070A4DC61AF00272008EE4D5;
+			remoteInfo = ScoopsAzure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070A4DC71AF00272008EE4D5 /* ScoopsAzure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoopsAzure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A4DCB1AF00272008EE4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070A4DCC1AF00272008EE4D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		070A4DCE1AF00272008EE4D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		070A4DCF1AF00272008EE4D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		070A4DD11AF00272008EE4D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		070A4DD21AF00272008EE4D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		070A4DD71AF00272008EE4D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		070A4DDA1AF00272008EE4D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		070A4DE01AF00272008EE4D5 /* ScoopsAzureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoopsAzureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A4DE51AF00272008EE4D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070A4DE61AF00272008EE4D5 /* ScoopsAzureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoopsAzureTests.m; sourceTree = "<group>"; };
+		070A4DF01AF0029B008EE4D5 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindowsAzureMobileServices.framework; path = ../../../../../Desktop/Cloud/overview/WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		070A4DF21AF01236008EE4D5 /* Keys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Keys.h; sourceTree = "<group>"; };
+		070A4DF91AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTScoopsWriterTableViewController.h; sourceTree = "<group>"; };
+		070A4DFA1AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTScoopsWriterTableViewController.m; sourceTree = "<group>"; };
+		070A4DFC1AF01F2E008EE4D5 /* Scoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scoop.h; sourceTree = "<group>"; };
+		070A4DFD1AF01F2E008EE4D5 /* Scoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scoop.m; sourceTree = "<group>"; };
+		070A4E001AF01FDE008EE4D5 /* AGTScoopsAzure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTScoopsAzure.h; sourceTree = "<group>"; };
+		070A4E011AF01FDE008EE4D5 /* AGTScoopsAzure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTScoopsAzure.m; sourceTree = "<group>"; };
+		070A4E031AF0223E008EE4D5 /* AGTNewScoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTNewScoopViewController.h; sourceTree = "<group>"; };
+		070A4E041AF0223E008EE4D5 /* AGTNewScoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTNewScoopViewController.m; sourceTree = "<group>"; };
+		070A4E051AF0223E008EE4D5 /* AGTNewScoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTNewScoopViewController.xib; sourceTree = "<group>"; };
+		071E4A201AF6A99200CA7220 /* no_like.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_like.jpg; sourceTree = "<group>"; };
+		071E4A211AF6A99200CA7220 /* like.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = like.jpeg; sourceTree = "<group>"; };
+		07359FCC1AF50804002DE922 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../Constants.h; sourceTree = "<group>"; };
+		07359FCD1AF50D81002DE922 /* no_enviada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_enviada.png; sourceTree = "<group>"; };
+		07359FCE1AF50D81002DE922 /* aprobada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aprobada.png; sourceTree = "<group>"; };
+		07359FD11AF557EA002DE922 /* AGTReaderScoopsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTReaderScoopsTableViewController.h; sourceTree = "<group>"; };
+		07359FD21AF557EA002DE922 /* AGTReaderScoopsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTReaderScoopsTableViewController.m; sourceTree = "<group>"; };
+		07359FD61AF55FC9002DE922 /* AGTScoopReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTScoopReaderViewController.h; sourceTree = "<group>"; };
+		07359FD71AF55FC9002DE922 /* AGTScoopReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTScoopReaderViewController.m; sourceTree = "<group>"; };
+		07359FD81AF55FC9002DE922 /* AGTScoopReaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTScoopReaderViewController.xib; sourceTree = "<group>"; };
+		0766E9F51AF63FD400ECEC3E /* no_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070A4DC41AF00272008EE4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A4DF11AF0029B008EE4D5 /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A4DDD1AF00272008EE4D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070A4DBE1AF00272008EE4D5 = {
+			isa = PBXGroup;
+			children = (
+				0766E9F51AF63FD400ECEC3E /* no_image.png */,
+				07359FCD1AF50D81002DE922 /* no_enviada.png */,
+				071E4A201AF6A99200CA7220 /* no_like.jpg */,
+				071E4A211AF6A99200CA7220 /* like.jpeg */,
+				07359FCE1AF50D81002DE922 /* aprobada.png */,
+				070A4DF21AF01236008EE4D5 /* Keys.h */,
+				070A4DF01AF0029B008EE4D5 /* WindowsAzureMobileServices.framework */,
+				070A4DC91AF00272008EE4D5 /* ScoopsAzure */,
+				070A4DE31AF00272008EE4D5 /* ScoopsAzureTests */,
+				070A4DC81AF00272008EE4D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070A4DC81AF00272008EE4D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DC71AF00272008EE4D5 /* ScoopsAzure.app */,
+				070A4DE01AF00272008EE4D5 /* ScoopsAzureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070A4DC91AF00272008EE4D5 /* ScoopsAzure */ = {
+			isa = PBXGroup;
+			children = (
+				07359FCC1AF50804002DE922 /* Constants.h */,
+				070A4DFF1AF01F32008EE4D5 /* Model */,
+				070A4DF81AF01D47008EE4D5 /* Controllers */,
+				070A4DCE1AF00272008EE4D5 /* AppDelegate.h */,
+				070A4DCF1AF00272008EE4D5 /* AppDelegate.m */,
+				070A4DD11AF00272008EE4D5 /* ViewController.h */,
+				070A4DD21AF00272008EE4D5 /* ViewController.m */,
+				070A4DD71AF00272008EE4D5 /* Images.xcassets */,
+				070A4DD91AF00272008EE4D5 /* LaunchScreen.xib */,
+				070A4DCA1AF00272008EE4D5 /* Supporting Files */,
+			);
+			path = ScoopsAzure;
+			sourceTree = "<group>";
+		};
+		070A4DCA1AF00272008EE4D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DCB1AF00272008EE4D5 /* Info.plist */,
+				070A4DCC1AF00272008EE4D5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		070A4DE31AF00272008EE4D5 /* ScoopsAzureTests */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DE61AF00272008EE4D5 /* ScoopsAzureTests.m */,
+				070A4DE41AF00272008EE4D5 /* Supporting Files */,
+			);
+			path = ScoopsAzureTests;
+			sourceTree = "<group>";
+		};
+		070A4DE41AF00272008EE4D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DE51AF00272008EE4D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		070A4DF81AF01D47008EE4D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07359FC61AF4CBDC002DE922 /* Cells */,
+				07359FD51AF5596D002DE922 /* Writer */,
+				07359FD41AF55960002DE922 /* Reader */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		070A4DFF1AF01F32008EE4D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DFC1AF01F2E008EE4D5 /* Scoop.h */,
+				070A4DFD1AF01F2E008EE4D5 /* Scoop.m */,
+				070A4E001AF01FDE008EE4D5 /* AGTScoopsAzure.h */,
+				070A4E011AF01FDE008EE4D5 /* AGTScoopsAzure.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		07359FC61AF4CBDC002DE922 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		07359FD41AF55960002DE922 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				07359FD11AF557EA002DE922 /* AGTReaderScoopsTableViewController.h */,
+				07359FD21AF557EA002DE922 /* AGTReaderScoopsTableViewController.m */,
+				07359FD61AF55FC9002DE922 /* AGTScoopReaderViewController.h */,
+				07359FD71AF55FC9002DE922 /* AGTScoopReaderViewController.m */,
+				07359FD81AF55FC9002DE922 /* AGTScoopReaderViewController.xib */,
+			);
+			name = Reader;
+			sourceTree = "<group>";
+		};
+		07359FD51AF5596D002DE922 /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				070A4DF91AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.h */,
+				070A4DFA1AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.m */,
+				070A4E031AF0223E008EE4D5 /* AGTNewScoopViewController.h */,
+				070A4E041AF0223E008EE4D5 /* AGTNewScoopViewController.m */,
+				070A4E051AF0223E008EE4D5 /* AGTNewScoopViewController.xib */,
+			);
+			name = Writer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070A4DC61AF00272008EE4D5 /* ScoopsAzure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A4DEA1AF00272008EE4D5 /* Build configuration list for PBXNativeTarget "ScoopsAzure" */;
+			buildPhases = (
+				070A4DC31AF00272008EE4D5 /* Sources */,
+				070A4DC41AF00272008EE4D5 /* Frameworks */,
+				070A4DC51AF00272008EE4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoopsAzure;
+			productName = ScoopsAzure;
+			productReference = 070A4DC71AF00272008EE4D5 /* ScoopsAzure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		070A4DDF1AF00272008EE4D5 /* ScoopsAzureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A4DED1AF00272008EE4D5 /* Build configuration list for PBXNativeTarget "ScoopsAzureTests" */;
+			buildPhases = (
+				070A4DDC1AF00272008EE4D5 /* Sources */,
+				070A4DDD1AF00272008EE4D5 /* Frameworks */,
+				070A4DDE1AF00272008EE4D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				070A4DE21AF00272008EE4D5 /* PBXTargetDependency */,
+			);
+			name = ScoopsAzureTests;
+			productName = ScoopsAzureTests;
+			productReference = 070A4DE01AF00272008EE4D5 /* ScoopsAzureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070A4DBF1AF00272008EE4D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cinnika;
+				TargetAttributes = {
+					070A4DC61AF00272008EE4D5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MJJL96YSF5;
+					};
+					070A4DDF1AF00272008EE4D5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 070A4DC61AF00272008EE4D5;
+					};
+				};
+			};
+			buildConfigurationList = 070A4DC21AF00272008EE4D5 /* Build configuration list for PBXProject "ScoopsAzure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070A4DBE1AF00272008EE4D5;
+			productRefGroup = 070A4DC81AF00272008EE4D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070A4DC61AF00272008EE4D5 /* ScoopsAzure */,
+				070A4DDF1AF00272008EE4D5 /* ScoopsAzureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070A4DC51AF00272008EE4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A4DDB1AF00272008EE4D5 /* LaunchScreen.xib in Resources */,
+				07359FCF1AF50D81002DE922 /* no_enviada.png in Resources */,
+				071E4A231AF6A99200CA7220 /* like.jpeg in Resources */,
+				07359FDA1AF55FC9002DE922 /* AGTScoopReaderViewController.xib in Resources */,
+				071E4A221AF6A99200CA7220 /* no_like.jpg in Resources */,
+				070A4E071AF0223E008EE4D5 /* AGTNewScoopViewController.xib in Resources */,
+				07359FD01AF50D81002DE922 /* aprobada.png in Resources */,
+				070A4DD81AF00272008EE4D5 /* Images.xcassets in Resources */,
+				0766E9F61AF63FD400ECEC3E /* no_image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A4DDE1AF00272008EE4D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070A4DC31AF00272008EE4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A4DD31AF00272008EE4D5 /* ViewController.m in Sources */,
+				070A4DD01AF00272008EE4D5 /* AppDelegate.m in Sources */,
+				070A4DFE1AF01F2E008EE4D5 /* Scoop.m in Sources */,
+				070A4E061AF0223E008EE4D5 /* AGTNewScoopViewController.m in Sources */,
+				07359FD91AF55FC9002DE922 /* AGTScoopReaderViewController.m in Sources */,
+				07359FD31AF557EA002DE922 /* AGTReaderScoopsTableViewController.m in Sources */,
+				070A4DFB1AF01E7B008EE4D5 /* AGTScoopsWriterTableViewController.m in Sources */,
+				070A4DCD1AF00272008EE4D5 /* main.m in Sources */,
+				070A4E021AF01FDE008EE4D5 /* AGTScoopsAzure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A4DDC1AF00272008EE4D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A4DE71AF00272008EE4D5 /* ScoopsAzureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		070A4DE21AF00272008EE4D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 070A4DC61AF00272008EE4D5 /* ScoopsAzure */;
+			targetProxy = 070A4DE11AF00272008EE4D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		070A4DD91AF00272008EE4D5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070A4DDA1AF00272008EE4D5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		070A4DE81AF00272008EE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		070A4DE91AF00272008EE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070A4DEB1AF00272008EE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yago/Desktop/Cloud/overview,
+				);
+				INFOPLIST_FILE = ScoopsAzure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		070A4DEC1AF00272008EE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yago/Desktop/Cloud/overview,
+				);
+				INFOPLIST_FILE = ScoopsAzure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		070A4DEE1AF00272008EE4D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScoopsAzureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopsAzure.app/ScoopsAzure";
+			};
+			name = Debug;
+		};
+		070A4DEF1AF00272008EE4D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScoopsAzureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoopsAzure.app/ScoopsAzure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070A4DC21AF00272008EE4D5 /* Build configuration list for PBXProject "ScoopsAzure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A4DE81AF00272008EE4D5 /* Debug */,
+				070A4DE91AF00272008EE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A4DEA1AF00272008EE4D5 /* Build configuration list for PBXNativeTarget "ScoopsAzure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A4DEB1AF00272008EE4D5 /* Debug */,
+				070A4DEC1AF00272008EE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A4DED1AF00272008EE4D5 /* Build configuration list for PBXNativeTarget "ScoopsAzureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A4DEE1AF00272008EE4D5 /* Debug */,
+				070A4DEF1AF00272008EE4D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070A4DBF1AF00272008EE4D5 /* Project object */;
+}
